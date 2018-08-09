@@ -1,7 +1,7 @@
 {
-  "name": "whatsapp-scraper",
+  "name": "zapptales",
   "version": "1.0.0",
-  "description": "Whatsapp Scraper(Chrome Extension)",
+  "description": "Extension which allows to scrape the customer's chat and upload that information to the backend",
   "main": "gulpfile.js",
   "devDependencies": {
     "del": "^2.2.2",

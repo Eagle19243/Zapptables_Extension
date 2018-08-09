@@ -9,36 +9,34 @@
     "content_security_policy": "script-src 'self' https://apis.google.com 'unsafe-eval'; object-src 'self'",
     "background": {
         //   "scripts": ["public/background.min.js"],
-        "scripts": ["js/background.js"],
+        "scripts": ["src/js/background.js"],
         "persistent": false
     },
     "content_scripts": [
         {
             "matches": ["https://web.whatsapp.com/"],
-            "js": ["vendor/jquery.min.js", "js/content.js"],
+            "js": ["public/vendor/jquery/jquery.min.js", "src/js/content.js"],
             "run_at": "document_end",
             "all_frames": true,
             "match_about_blank": true
         }
     ],
     "browser_action" : {
-        "default_icon": "img/icon_disabled.png",
-        "default_title": "Zapptales"
+        "default_icon": "public/img/icon.png",
+        "default_title": "Zapptales",
+        "default_popup": "src/html/index.html"
     },
     "icons" : {
-        "16" : "img/icon_disabled.png",
-        "22" : "img/icon_disabled.png",
-        "32" : "img/icon_disabled.png",
-        "48" : "img/icon_disabled.png",
-        "128": "img/icon_disabled.png"
+        "16" : "public/img/icon.png",
+        "22" : "public/img/icon.png",
+        "32" : "public/img/icon.png",
+        "48" : "public/img/icon.png",
+        "128": "public/img/icon.png"
     },
     "permissions": [
         "tabs",
         "activeTab",
         "http://*/*",
         "https://*/*"
-    ],
-    "web_accessible_resources": [
-        "img/icon.png"
     ]
 }

@@ -1,0 +1,27 @@
+body {
+    min-width: 300px;
+    min-height: 350px;
+}
+.header {
+    text-align: center;
+
+}
+.header .title {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.body {
+    text-align: center;
+}
+.body .description {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.body .btn-scroll{
+    margin-top: 40px;
+}
+.body .btn-retrieve-media{
+    margin-top: 10px;
+}
