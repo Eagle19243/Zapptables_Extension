@@ -24,7 +24,7 @@
     "browser_action" : {
         "default_icon": "public/img/icon.png",
         "default_title": "Zapptales",
-        "default_popup": "src/html/index.html"
+        "default_popup": "src/html/popup.html"
     },
     "icons" : {
         "16" : "public/img/icon.png",

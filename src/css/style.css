@@ -25,3 +25,15 @@ body {
 .body .btn-retrieve-media{
     margin-top: 10px;
 }
+.body #blob_link {
+    margin-top: 10px;
+    width: auto;
+    display: inline-flex;
+}
+.body #img_from_blob {
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    display: none;
+    object-fit: contain;
+}
