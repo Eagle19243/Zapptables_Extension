@@ -10,7 +10,7 @@
 - Download this repo to your local
 - Open `chrome://extensions/` in Google Chrome browser.
 - Turn on `Developer mode`
-- Click `LOAD UNPACKED' and choose the downloaded repo in the presented dialog.
+- Click `LOAD UNPACKED` and choose the downloaded repo in the presented dialog.
 - Now you will see the extension icon at the top-right of Chrome browser.
 
 ## Instructions to run 
